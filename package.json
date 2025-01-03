@@ -1,14 +1,20 @@
 {
   "name": "battlefield-backend",
   "version": "1.0.0",
+  "description": "An API backend for Battlefield server and stats",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["battlefield", "backend", "api", "server"],
+  "author": "Vinay Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinay-kumar-3/battlefield-backend.git"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2"
